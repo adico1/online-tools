@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* .material-icons { padding-bottom: 3px;padding-left:-3px;} */
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; width: 18px;}
+.material-icons.md-24 { font-size: 24px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+.material-icons.orange600 { color: rgb(251, 138, 0); }
+.material-icons.green600 { color: rgb(138, 251, 0); }
+.material-icons.red600 { color: rgb(251, 51, 51); }
+.material-icons.yellow600 { color: rgb(234, 251, 0); }
+
+.mat-tree .material-icons { 
+  font-size: unset;
+  width: auto;
+  height: auto;
+}
+
+.mat-tree .mat-tree-node {
+  min-height: auto;
+}

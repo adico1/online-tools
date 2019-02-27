@@ -1,0 +1,9 @@
+<div class="editor-text-decor">JSON INPUT</div>
+<div class="editor-components">
+  From: <select class="editor-input" [(ngModel)]="jsonInputType" name="jsonInputType">
+    <option value="0">Direct Input</option>
+    <option value="1">URL</option>
+  </select>
+  <input id="editor-input-input" type="text" [(ngModel)]="jsonInput" name="jsonInput" />
+  <button class="editor-input" (click)="jsonInputExecute()">Go</button>
+</div>

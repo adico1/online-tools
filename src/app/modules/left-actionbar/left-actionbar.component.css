@@ -1,0 +1,29 @@
+.left-actionbar {
+  display: inherit;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(226, 226, 226);
+  height: 100%;
+  align-items: stretch;
+  flex: 0.05;
+}
+
+.left-actionbar .action-button {
+  background-color: #413f3f;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  color: #fff;
+  padding: 8px;
+  font-weight: 100;
+  margin: 10px 0;
+}
+
+.left-actionbar .action-button i {
+  opacity: 0.5;
+}
+
+.block-padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}

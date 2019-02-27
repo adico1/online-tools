@@ -1,0 +1,14 @@
+export enum FLAVOR {
+  JSON = 1,
+  BSON,
+  SMILE,
+  UBJSON,
+  CBOR,
+  HOCON,
+  ION,
+  TRANSIT,
+  MESSAGE_PACK,
+  YAML,
+  PROTOCOL_BUFFER,
+  HDFS5
+}

@@ -1,0 +1,2 @@
+<div class="editor-text-decor">FLAVOR</div>
+<div *ngFor="let item of (flavors | enumToArray)" [ngClass]="{'selected':isFlavorSelected(item)}" class="flavor-item" (click)="selectFlavor(item)"><i class="material-icons md-18">code</i>{{item}}</div>

@@ -1,0 +1,12 @@
+.editor-text-decor {
+  border-bottom: 1px solid #b6b0b0;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  color: rgb(0, 0, 112);
+}
+
+.main-toolset .flavor-item:hover,
+.flavor-item.selected {
+  background-color: #d3d0d0;
+  padding: 3px;
+}

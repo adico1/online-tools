@@ -1,0 +1,91 @@
+
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main-toolset .material-icons,
+.main-header svg {
+  display: inline;
+  vertical-align: middle;
+}
+
+.main-toolset .flavor-item:hover,
+.flavor-item.selected {
+  background-color: #d3d0d0;
+  padding: 3px;
+}
+
+.main-editor-wrapper {
+  display: inherit;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+}
+
+
+.main-toolset {
+  background-color: rgb(238, 238, 238);
+  flex: 0.3;
+}
+
+.main-editor {
+  display: inherit;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(226, 226, 226);;
+  flex: 1;
+}
+
+.main-educational {
+  background-color: rgb(238, 238, 238);
+  flex: 0.3;
+}
+
+.editor-input-wrapper {
+  display: inherit;
+  flex-direction: column;
+  flex: 0.1;
+}
+
+.editor-components {
+  display: inherit;
+  flex-direction: row;
+  flex: 0.1;
+}
+
+.editor-viewer-wrapper {
+  flex: 1;
+}
+
+#editor-input-input {
+  width: 100%;
+}
+
+#editor-input-input,
+.editor-input {
+  height: 30px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+#editor-viewer-input {
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  flex:1;
+}
+
+.editor-text-decor {
+  border-bottom: 1px solid #b6b0b0;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  color: rgb(0, 0, 112);
+}
+
+.asflex {
+  display: inherit;
+}
